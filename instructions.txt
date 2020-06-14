@@ -1,0 +1,6 @@
+How to use this bot:
+1. Go to Discord > User Settings > Appearance > Advanced > Turn Developer Mode On
+2. Go to https://discord.com/developers/applications > New Application > Bot > Add Bot > Copy Token 
+WARNING: Don't give anyone your token. It will allow them to control your bot.
+3. Go to 
+
