@@ -1,6 +1,12 @@
 How to use this bot:
 1. Go to Discord > User Settings > Appearance > Advanced > Turn Developer Mode On
-2. Go to https://discord.com/developers/applications > New Application > Bot > Add Bot > Copy Token 
+2. Go to https://discord.com/developers/applications > New Application > Bot > Add Bot > Copy API Token 
 WARNING: Don't give anyone your token. It will allow them to control your bot.
-3. Go to 
+3. Go to logger.py and paste your API Token into where it says client.run(" ") with the quotes on
+4. If you don't have discord.py installed go to the Command Prompt and cd to your Scripts folder in the same folder as Python. Then install discord.py by typing pip install discord
+5. Go to the Discord Server where you want the bot to log everything
+6. Click on the channel where you would like the bot to log everything and copy the Channel ID into the line where it says     channel = client.get_channel("Replace this with the ID of the Audit channel") without the quotes
+Then invite your bot to your server by going to https://discord.com/developers/applications and clicking on your bot > OAuth2 > Choose bot as your scope > Choose Admin for permissions > Go up to scopes and copy the invite link and invite it to the server that you want to audit.
+NOTE: You can only use 1 server for 1 bot. If you have more than one server where you need this, you must repeat 1-9.
+
 
